@@ -6,7 +6,7 @@
      <div class="container">
         <div class="mt-4">
           <!-- 產品Modal -->
-          <product ref="productModal"></product>
+          <product ></product>
           <!-- 產品Modal -->
          
           <table class="table align-middle">
@@ -91,7 +91,8 @@ export default {
       alert(res.data.message)
       }
     })
-    }
+    },
+    
   
   },
   mounted(){
